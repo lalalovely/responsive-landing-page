@@ -1,0 +1,98 @@
+/******* START OF CRYPTOCURRENCIES SECTION STYLES */
+
+.cryptocurrencies {
+  padding-top: 300px;
+  background-color: #f9fafb;
+  width: 100%;
+  padding-bottom: 8rem;
+}
+
+.cryptocurrencies .heading h1 {
+  color: var(--primary-color);
+}
+
+.cryptocurrencies .cryptos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 2.5rem;
+}
+
+.cryptos .card {
+  display: flex;
+  transition: 400ms;
+  width: 100%;
+  padding: 3rem 1.5rem;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  text-align: center;
+  background-color: var(--white-color);
+}
+
+.cryptos .card img {
+  margin-bottom: 3rem;
+}
+
+.cryptos .card .name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 0.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.cryptos .card .name h2 {
+  color: var(--primary-color);
+  margin: 0;
+}
+
+.cryptos .card .name span {
+  color: var(--grey4-color);
+}
+
+.cryptos .card p {
+  color: var(--grey3-color);
+  margin-bottom: 1.5rem;
+}
+
+.cryptos .card .crypto-btn {
+  cursor: pointer;
+  outline: none;
+  border-radius: 50%;
+  border: 2px solid rgba(43, 7, 110, 0.2);
+  display: inline-flex;
+  align-items: center;
+  padding: 1rem 1.25rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--accent-color);
+  background-color: var(--white-color);
+}
+
+.crypto-lg-btn {
+  display: none;
+}
+
+.cryptos .card.clicked {
+  background-color: var(--secondary-color);
+}
+
+.cryptos .card .name h2.clicked {
+  color: var(--white-color);
+}
+
+.cryptos .card p.clicked {
+  color: var(--white-color);
+}
+
+.cryptos .card .crypto-btn.clicked {
+  display: none;
+}
+
+.crypto-lg-btn.clicked {
+  display: inline-flex;
+  column-gap: 1rem;
+}
+
+/******* END OF CRYPTOCURRENCIES SECTION STYLES */

@@ -1,0 +1,114 @@
+header {
+  padding: 2rem 0 1rem 0;
+}
+
+header .nav-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.right-nav {
+  display: none;
+}
+
+.right-nav .links {
+  display: none;
+}
+
+.links li {
+  transition: all 150ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+}
+
+.others-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.others-nav span {
+  margin: 0 1.5rem;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.bar-btn {
+  display: block;
+  cursor: pointer;
+  font-size: 2rem;
+  color: var(--white-color);
+}
+
+.bar-btn:hover {
+  opacity: 0.7;
+}
+
+/* Overlay Menu */
+
+.overlay-nav {
+  display: block;
+  position: fixed;
+  width: 100%;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  z-index: 30;
+  transform: translateX(100%);
+  transition: all 500ms ease-in;
+  opacity: 0;
+  background-color: #1a1a40;
+}
+
+.overlay-nav.active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 500ms;
+}
+
+.overlay-nav nav {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.overlay-nav .wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.overlay-nav .links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay-nav .links li {
+  margin-bottom: 2rem;
+}
+
+.overlay-nav .close-btn {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  cursor: pointer;
+  font-size: 2rem;
+  color: var(--white-color);
+}
+
+.overlay-nav .close-btn:hover {
+  opacity: 0.7;
+}
+
+.overlay-nav .register-btn {
+  font-size: 1.5rem;
+  padding: 1rem 1.5rem;
+}

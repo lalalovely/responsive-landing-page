@@ -1,0 +1,73 @@
+/******* START OF HERO STYLES */
+
+.hero-section {
+  padding: 1rem 2rem 3rem 2rem;
+}
+
+.hero-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-wrapper > * {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.round-text {
+  margin-bottom: 1.5rem;
+  padding: 0.25rem;
+  padding-left: 0.25rem;
+  padding-right: 0.75rem;
+  max-width: 300px;
+  border-radius: 2rem;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.round-text .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 0.75rem;
+}
+
+.round-text .text-1 {
+  padding: 0.25rem 1rem;
+  text-transform: uppercase;
+  color: var(--primary-color);
+  background-color: var(--white-color);
+  font-size: 0.75rem;
+  line-height: 1rem;
+  border-radius: 2rem;
+}
+
+.round-text .text-2 {
+  color: var(--white-color);
+  font-size: 0.75rem;
+  line-height: 1rem;
+  letter-spacing: 0.01em;
+}
+
+.big-text {
+  max-width: 500px;
+}
+
+.big-text h1 {
+  padding: 0.5rem 0;
+  text-transform: capitalize;
+  font-size: 2.75rem;
+  line-height: 1.25;
+  font-weight: 600;
+}
+
+.big-text div {
+  padding: 0.75rem 0;
+}
+
+.big-text button {
+  column-gap: 1rem;
+}
+
+/******* END OF HERO STYLES */

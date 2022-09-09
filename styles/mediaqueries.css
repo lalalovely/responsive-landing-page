@@ -1,0 +1,221 @@
+/** FOR DESKTOP */
+
+@media screen and (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+
+  .calculate-section {
+    padding-bottom: 15rem;
+  }
+
+  .card-wrapper .card {
+    top: 16rem;
+  }
+
+  .cryptocurrencies {
+    padding-top: 17rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+
+  /* newsletter */
+  .newsletter {
+    padding-bottom: 5rem;
+  }
+
+  .newsletter-card {
+    flex-direction: row;
+    column-gap: 5rem;
+    padding: 2.5rem;
+  }
+
+  .newsletter-card .text h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+  }
+
+  .newsletter-card p {
+    font-size: 1rem;
+  }
+
+  .newsletter-card form {
+    flex-direction: row;
+    align-items: center;
+    column-gap: 1rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    max-width: 1200px;
+  }
+
+  .right-nav {
+    display: flex;
+    column-gap: 55px;
+  }
+
+  .right-nav .links {
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+  }
+
+  .bar-btn {
+    display: none;
+  }
+
+  .stat {
+    width: auto;
+    padding: 0;
+  }
+
+  .stat p {
+    width: 100%;
+  }
+
+  /***/
+
+  .flex {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .flex > * {
+    align-items: flex-start;
+  }
+
+  .text-2 {
+    margin-left: 0px;
+  }
+
+  .big-text h1 {
+    font-size: 3.25rem;
+    line-height: 70px;
+  }
+
+  /** Stats */
+  .stats-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  /** why section */
+
+  .why-section .flex {
+    flex-direction: row-reverse;
+  }
+
+  /* calculate */
+
+  .calculate-section {
+    padding-top: 4rem;
+    padding-bottom: 10rem;
+  }
+
+  .card-wrapper .card {
+    width: 50%;
+    top: 13rem;
+  }
+
+  .card-wrapper .card form {
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 2rem;
+    justify-content: space-between;
+  }
+
+  /* cryptocurrencies */
+
+  .cryptocurrencies {
+    padding-top: 12.5rem;
+  }
+
+  .cryptocurrencies .cryptos {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .cryptos .card {
+    max-width: 350px;
+  }
+
+  /* features */
+
+  .features {
+    top: 0;
+  }
+
+  .feature {
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 3.5rem;
+    column-gap: 2rem;
+  }
+
+  .feature img {
+    width: 100%;
+  }
+
+  .feature.reverse {
+    flex-direction: row-reverse;
+  }
+
+  /* newsletter */
+
+  .newsletter {
+    padding-bottom: 5rem;
+  }
+
+  .newsletter-card {
+    flex-direction: row;
+    column-gap: 5rem;
+    padding: 2.5rem;
+  }
+
+  .newsletter-card p {
+    width: 100%;
+  }
+
+  .newsletter-card form {
+    flex-direction: row;
+    align-items: center;
+    column-gap: 1rem;
+  }
+
+  /* footer */
+
+  .footer-top {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+  }
+
+  .footer-top > * {
+    flex: 1;
+    align-self: flex-start;
+    text-align: left;
+  }
+
+  .footer-top h1 {
+    font-size: 2rem;
+  }
+
+  .footer-bottom {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .footer-bottom p {
+    text-align: start;
+  }
+}
