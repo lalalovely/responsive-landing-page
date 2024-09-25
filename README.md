@@ -1,4 +1,4 @@
 # responsive-landing-page
 Responsive landing page
 
-Live site: https://lzarsolon.github.io/responsive-landing-page/
+Live site: [https://lalalovely.github.io/responsive-landing-page/](https://lalalovely.github.io/responsive-landing-page/)
